@@ -7,12 +7,12 @@ Description: WEBSITE FOR THE MUSICAL - LOST AND FOUND IN SIZZLETOWN
 Version: 1.0
 */
 
-@import "scut";
-@import "reset";
+@import "normalize";
+@import "mixins";
 @import "variables";
 @import "grid";
 @import "fonts";
 @import "header";
 @import "footer";
 @import "home";
-@import "nav";
+@import "hero";

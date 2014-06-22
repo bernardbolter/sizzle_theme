@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	sass = require('gulp-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
+	watch = require('gulp-watch');
 	livereload = require('gulp-livereload'),
 	clean = require('gulp-clean'),
 	imagemin = require('gulp-imagemin'),
@@ -74,13 +75,12 @@ gulp.task('move', ['clean-out'], function() {
 			.pipe(gulp.dest('outbound'));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function () {
 	var server = livereload();
-	gulp.watch(jsSources, ['js']);
-	gulp.watch(sassSources, ['sass']);
-	gulp.watch(['js/script.js' , '*.php'], function(e) {
-		server.changed(e.path);
-	})
+    gulp.src('scss/**/*.scss')
+        .pipe(watch(function(files) {
+            return files.pipe(sass());
+        }));
 });
 
 gulp.task('default', ['js', 'sass', 'watch']);

@@ -1,0 +1,43 @@
+.contact_rap {
+	width: 100%;
+	background: $green;
+	overflow: hidden;
+	padding: 3% 0 10%;
+
+	.contact_container {
+		width: 94%;
+		margin: 0 3%;
+		overflow: hidden;
+
+		a {
+			text-decoration: none;
+			font-family: $font-head;
+			color: $brown;
+			@include font-size(1.5);
+			text-align: right;
+			display: block;
+
+			img {
+				height: 30px;
+				width: 30px;
+				margin: 0 5px 0;
+			} // img
+
+			&:hover {
+				text-decoration: underline;
+			}
+		} // a
+
+		h3 {
+			font-family: $font-head;
+			color: $brown;
+			@include font-size(2);
+			padding: 20px 0;
+			border-bottom: 4px solid $brown;
+		} // h3
+
+		p {
+			font-family: $font-body;
+		}
+	} // contact container
+} // contact rap

@@ -187,25 +187,156 @@ table {
   ========================================================================== */
 /* Text replacement (instead of text-indent)
   ========================================================================== */
+@font-face {
+  font-family: 'bebasregular';
+  src: url('fonts/bebas___-webfont.eot');
+  src: url('fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/bebas___-webfont.woff') format('woff'), url('fonts/bebas___-webfont.ttf') format('truetype'), url('fonts/bebas___-webfont.svg#bebasregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+.nav_rap {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #33251f;
+  overflow: hidden;
+  z-index: 9999;
+  opacity: 0.9;
+  filter: alpha(opacity=90); }
+  .nav_rap .nav_container {
+    width: 94%;
+    margin: 0 3%; }
+    .nav_rap .nav_container .navigation {
+      list-style: none;
+      float: right;
+      margin: 5px 0; }
+      .nav_rap .nav_container .navigation {
+        *zoom: 1; }
+      .nav_rap .nav_container .navigation:before, .nav_rap .nav_container .navigation:after {
+        content: "";
+        display: table; }
+      .nav_rap .nav_container .navigation:after {
+        clear: both; }
+      .nav_rap .nav_container .navigation li {
+        float: left;
+        display: inline-block; }
+        .nav_rap .nav_container .navigation li a {
+          font-family: "bebasregular", sans-serif;
+          color: #cbf100;
+          margin: 0 0 0 10px;
+          text-decoration: none;
+          font-size: 10px;
+          font-size: 1rem;
+          padding: 0;
+          letter-spacing: 0.05em; }
+          .nav_rap .nav_container .navigation li a:hover {
+            text-decoration: underline; }
+
 .hero_rap {
   width: 100%;
   display: block;
-  background: #b8da00;
-  overflow: hidden; }
+  background: #cbf100;
+  overflow: hidden;
+  border-bottom: 1px solid #888; }
   .hero_rap img {
-    width: 50%;
-    margin: 5% auto 2%;
+    width: 90%;
+    max-width: 650px;
+    margin: 10% auto;
     display: block; }
 
 .intro_rap {
-  width: 94%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background: #eaff74;
+  background: url(gfx/beige_back.jpg) repeat;
   border-bottom: 1px solid #888;
-  border-bottom: 1px solid #888;
-  padding: 200px 0; }
+  padding: 15px 0; }
+  .intro_rap .intro_title {
+    width: 100%;
+    overflow: hidden; }
+    .intro_rap .intro_title .intro_title_1 {
+      text-align: center;
+      font-family: "bebasregular", sans-serif;
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 20px;
+      line-height: 2rem;
+      color: #33251f;
+      text-shadow: 1px 1px 1px #cbf100; }
+    .intro_rap .intro_title .intro_title_2 {
+      text-align: center;
+      font-family: "bebasregular", sans-serif;
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 20px;
+      line-height: 2rem;
+      color: #33251f;
+      text-shadow: 1px 1px 1px #cbf100;
+      font-weight: 700; }
+    .intro_rap .intro_title p {
+      font-family: "Arvo", serif;
+      text-align: center;
+      color: #666;
+      font-size: 7px;
+      font-size: 0.7rem;
+      line-height: 7px;
+      line-height: 0.7rem;
+      margin: 0;
+      padding: 0; }
+    .intro_rap .intro_title h2 {
+      font-family: "Arvo", serif;
+      text-align: center;
+      color: #222;
+      font-size: 12px;
+      font-size: 1.2rem;
+      line-height: 22px;
+      line-height: 2.2rem;
+      margin: 0;
+      padding: 0; }
+    .intro_rap .intro_title h3 {
+      font-family: "Arvo", serif;
+      text-align: center;
+      color: #222;
+      font-size: 10px;
+      font-size: 1rem;
+      line-height: 20px;
+      line-height: 2rem;
+      margin: 0;
+      padding: 0; }
+  .intro_rap .intro_text {
+    width: 94%;
+    margin: 3% 3% 0;
+    padding: 3% 0 0;
+    overflow: hidden;
+    border-top: 1px solid #666; }
+    .intro_rap .intro_text h2 {
+      font-family: "bebasregular", sans-serif;
+      font-size: 16px;
+      font-size: 1.6rem;
+      color: #33251f;
+      text-shadow: 1px 1px 1px #cbf100;
+      padding: 0;
+      margin: 0; }
+    .intro_rap .intro_text p {
+      font-family: "Arvo", serif;
+      font-size: 10px;
+      font-size: 1rem;
+      line-height: 18px;
+      line-height: 1.8rem;
+      color: #666;
+      text-indent: 25px; }
+    .intro_rap .intro_text a {
+      text-decoration: none;
+      font-family: "bebasregular", sans-serif;
+      font-size: 12px;
+      font-size: 1.2rem;
+      color: #333;
+      text-align: right;
+      display: block; }
+      .intro_rap .intro_text a:hover {
+        color: black;
+        text-decoration: underline; }
 
 /*
  * jQuery Nivo Slider v3.2
@@ -322,27 +453,138 @@ table {
 .nivo-controlNav a.active {
   font-weight: bold; }
 
+.photos_rap {
+  width: 100%;
+  padding: 5% 0 2%;
+  overflow: hidden;
+  background: #cbf100; }
+  .photos_rap #slider {
+    width: 94%;
+    margin: 0 3%;
+    border: 1px solid black; }
+
 .music_rap {
-  width: 96%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 100%;
+  background: #cbf100;
+  padding: 3% 0;
+  overflow: hidden;
+  display: block; }
+  .music_rap .music_container {
+    width: 94%;
+    margin: 0 3%;
+    display: block; }
+    .music_rap .music_container h2 {
+      font-family: "bebasregular", sans-serif;
+      font-size: 15px;
+      font-size: 1.5rem;
+      padding: 0;
+      margin: 0 0 10px;
+      color: #33251f; }
 
 .video_rap {
-  width: 96%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden; }
-  .video_rap .video_rapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    padding-top: 25px;
-    height: 0; }
-    .video_rap .video_rapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; }
+  width: 100%;
+  background: #cbf100;
+  padding: 3% 0 5%;
+  overflow: hidden;
+  border-bottom: 1px solid black; }
+  .video_rap .video_container {
+    width: 94%;
+    margin: 0 3%;
+    overflow: hidden;
+    display: block; }
+    .video_rap .video_container h3 {
+      font-family: "bebasregular", sans-serif;
+      font-size: 20px;
+      font-size: 2rem;
+      padding: 0;
+      margin: 0 0 10px;
+      color: #33251f; }
+    .video_rap .video_container .video_rapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+      .video_rap .video_container .video_rapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+
+.article_rap {
+  width: 100%;
+  overflow: hidden;
+  background: url(gfx/beige_back.jpg) repeat;
+  padding: 0 0 30px;
+  border-bottom: 1px solid #333; }
+  .article_rap .article_container {
+    width: 94%;
+    margin: 0 3%;
+    overflow: hidden; }
+    .article_rap .article_container h4 {
+      font-family: "Arvo", serif;
+      font-size: 8px;
+      font-size: 0.8rem;
+      line-height: 10px;
+      line-height: 1rem;
+      color: #666;
+      text-align: center; }
+    .article_rap .article_container h2 {
+      font-family: "bebasregular", sans-serif;
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 25px;
+      line-height: 2.5rem;
+      color: #33251f;
+      text-align: center;
+      margin: 0; }
+    .article_rap .article_container h3 {
+      font-family: "Arvo", serif;
+      font-size: 10px;
+      font-size: 1rem;
+      text-align: center;
+      color: #666;
+      margin: 0 0 20px; }
+    .article_rap .article_container p {
+      font-family: "Arvo", serif;
+      font-size: 10px;
+      font-size: 1rem;
+      line-height: 16px;
+      line-height: 1.6rem;
+      color: #444;
+      margin: 10px 0;
+      text-indent: 25px; }
+
+.contact_rap {
+  width: 100%;
+  background: #cbf100;
+  overflow: hidden;
+  padding: 3% 0 10%; }
+  .contact_rap .contact_container {
+    width: 94%;
+    margin: 0 3%;
+    overflow: hidden; }
+    .contact_rap .contact_container a {
+      text-decoration: none;
+      font-family: "bebasregular", sans-serif;
+      color: #33251f;
+      font-size: 15px;
+      font-size: 1.5rem;
+      text-align: right;
+      display: block; }
+      .contact_rap .contact_container a img {
+        height: 30px;
+        width: 30px;
+        margin: 0 5px 0; }
+      .contact_rap .contact_container a:hover {
+        text-decoration: underline; }
+    .contact_rap .contact_container h3 {
+      font-family: "bebasregular", sans-serif;
+      color: #33251f;
+      font-size: 20px;
+      font-size: 2rem;
+      padding: 20px 0;
+      border-bottom: 4px solid #33251f; }
+    .contact_rap .contact_container p {
+      font-family: "Arvo", serif; }

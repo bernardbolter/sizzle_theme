@@ -3,10 +3,12 @@
 	display: block;
 	background: $green;
 	overflow: hidden;
+	border-bottom: 1px solid #888;
 
 	img {
-		width: 50%;
-		margin: 5% auto 2%;
+		width: 90%;
+		max-width: 650px;
+		margin: 10% auto;
 		display: block;
 	} // img
 } // hero rap

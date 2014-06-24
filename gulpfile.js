@@ -77,10 +77,8 @@ gulp.task('move', ['clean-out'], function() {
 
 gulp.task('watch', function () {
 	var server = livereload();
-    gulp.src('scss/**/*.scss')
-        .pipe(watch(function(files) {
-            return files.pipe(sass());
-        }));
+	gulp.watch('sass/*.scss', ['sass']);
+	gulp.watch(jsSources, ['js']);
 });
 
 gulp.task('default', ['js', 'sass', 'watch']);

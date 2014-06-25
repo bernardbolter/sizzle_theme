@@ -5,6 +5,12 @@
 	overflow: hidden;
 	border-bottom: 1px solid black;
 
+	@include respond-to(break) {
+		float: left;
+		width: 50%;
+		border-bottom: none;
+	}
+
 	.video_container {
 		width: 94%;
 		margin: 0 3%;

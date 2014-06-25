@@ -238,11 +238,31 @@ table {
   background: #cbf100;
   overflow: hidden;
   border-bottom: 1px solid #888; }
+  @media only screen and (min-width: 801px) {
+    .hero_rap {
+      border-bottom: none; } }
   .hero_rap img {
     width: 90%;
-    max-width: 650px;
+    max-width: 600px;
     margin: 10% auto;
     display: block; }
+    @media only screen and (min-width: 801px) {
+      .hero_rap img {
+        margin: 5% auto; } }
+
+@media only screen and (min-width: 801px) {
+  .large_container {
+    width: 100%;
+    background: #cbf100;
+    overflow: #cbf100;
+    border-bottom: 1px solid #333; }
+    .large_container {
+      *zoom: 1; }
+    .large_container:before, .large_container:after {
+      content: "";
+      display: table; }
+    .large_container:after {
+      clear: both; } }
 
 .intro_rap {
   width: 100%;
@@ -252,6 +272,12 @@ table {
   background: url(gfx/beige_back.jpg) repeat;
   border-bottom: 1px solid #888;
   padding: 15px 0; }
+  @media only screen and (min-width: 801px) {
+    .intro_rap {
+      float: left;
+      width: 50%;
+      background: #cbf100;
+      border-bottom: none; } }
   .intro_rap .intro_title {
     width: 100%;
     overflow: hidden; }
@@ -264,6 +290,11 @@ table {
       line-height: 2rem;
       color: #33251f;
       text-shadow: 1px 1px 1px #cbf100; }
+      @media only screen and (min-width: 801px) {
+        .intro_rap .intro_title .intro_title_1 {
+          text-align: right;
+          text-shadow: 2px 2px 2px #fff;
+          margin: 0 30px 0 0; } }
     .intro_rap .intro_title .intro_title_2 {
       text-align: center;
       font-family: "bebasregular", sans-serif;
@@ -274,6 +305,11 @@ table {
       color: #33251f;
       text-shadow: 1px 1px 1px #cbf100;
       font-weight: 700; }
+      @media only screen and (min-width: 801px) {
+        .intro_rap .intro_title .intro_title_2 {
+          text-align: right;
+          text-shadow: 2px 2px 2px #fff;
+          margin: 20px 30px 20px 0; } }
     .intro_rap .intro_title p {
       font-family: "Arvo", serif;
       text-align: center;
@@ -284,6 +320,10 @@ table {
       line-height: 0.7rem;
       margin: 0;
       padding: 0; }
+      @media only screen and (min-width: 801px) {
+        .intro_rap .intro_title p {
+          text-align: right;
+          margin: 0 40px 0 0; } }
     .intro_rap .intro_title h2 {
       font-family: "Arvo", serif;
       text-align: center;
@@ -294,6 +334,10 @@ table {
       line-height: 2.2rem;
       margin: 0;
       padding: 0; }
+      @media only screen and (min-width: 801px) {
+        .intro_rap .intro_title h2 {
+          text-align: right;
+          margin: 0 40px 0 0; } }
     .intro_rap .intro_title h3 {
       font-family: "Arvo", serif;
       text-align: center;
@@ -304,12 +348,25 @@ table {
       line-height: 2rem;
       margin: 0;
       padding: 0; }
+      @media only screen and (min-width: 801px) {
+        .intro_rap .intro_title h3 {
+          text-align: right;
+          margin: 0 40px 0 0; } }
   .intro_rap .intro_text {
     width: 94%;
     margin: 3% 3% 0;
     padding: 3% 0 0;
     overflow: hidden;
     border-top: 1px solid #666; }
+    @media only screen and (min-width: 801px) {
+      .intro_rap .intro_text {
+        background: url(gfx/beige_back.jpg) repeat;
+        border: 1px solid #333;
+        padding: 3%;
+        width: 80%;
+        margin: 3% 7% 0 0;
+        float: right;
+        max-width: 600px; } }
     .intro_rap .intro_text h2 {
       font-family: "bebasregular", sans-serif;
       font-size: 16px;
@@ -458,10 +515,22 @@ table {
   padding: 5% 0 2%;
   overflow: hidden;
   background: #cbf100; }
+  @media only screen and (min-width: 801px) {
+    .photos_rap {
+      float: right;
+      width: 50%;
+      padding: 0; } }
   .photos_rap #slider {
     width: 94%;
     margin: 0 3%;
     border: 1px solid black; }
+    @media only screen and (min-width: 801px) {
+      .photos_rap #slider {
+        border: 10px solid #fff;
+        width: 90%;
+        margin: 0 10% 0 0;
+        max-width: 500px;
+        float: left; } }
 
 .music_rap {
   width: 100%;
@@ -469,10 +538,18 @@ table {
   padding: 3% 0;
   overflow: hidden;
   display: block; }
+  @media only screen and (min-width: 801px) {
+    .music_rap {
+      float: right;
+      width: 50%; } }
   .music_rap .music_container {
     width: 94%;
     margin: 0 3%;
     display: block; }
+    @media only screen and (min-width: 801px) {
+      .music_rap .music_container {
+        float: left;
+        max-width: 550px; } }
     .music_rap .music_container h2 {
       font-family: "bebasregular", sans-serif;
       font-size: 15px;
@@ -487,6 +564,11 @@ table {
   padding: 3% 0 5%;
   overflow: hidden;
   border-bottom: 1px solid black; }
+  @media only screen and (min-width: 801px) {
+    .video_rap {
+      float: left;
+      width: 50%;
+      border-bottom: none; } }
   .video_rap .video_container {
     width: 94%;
     margin: 0 3%;
@@ -522,6 +604,10 @@ table {
     width: 94%;
     margin: 0 3%;
     overflow: hidden; }
+    @media only screen and (min-width: 801px) {
+      .article_rap .article_container {
+        max-width: 700px;
+        margin: 20px auto; } }
     .article_rap .article_container h4 {
       font-family: "Arvo", serif;
       font-size: 8px;
@@ -564,7 +650,21 @@ table {
   .contact_rap .contact_container {
     width: 94%;
     margin: 0 3%;
-    overflow: hidden; }
+    overflow: hidden;
+    max-width: 1050px; }
+    @media only screen and (min-width: 801px) {
+      .contact_rap .contact_container {
+        margin: 0 auto; } }
+    @media only screen and (min-width: 801px) {
+      .contact_rap .contact_container .contact_left {
+        width: 46%;
+        float: left;
+        margin: 0 4% 0 0; } }
+    @media only screen and (min-width: 801px) {
+      .contact_rap .contact_container .contact_right {
+        width: 46%;
+        float: left;
+        margin: 0 0 0 4%; } }
     .contact_rap .contact_container a {
       text-decoration: none;
       font-family: "bebasregular", sans-serif;
@@ -587,4 +687,13 @@ table {
       padding: 20px 0;
       border-bottom: 4px solid #33251f; }
     .contact_rap .contact_container p {
+      font-family: "Arvo", serif; }
+    .contact_rap .contact_container .wpcf7-form p {
+      font-family: "bebasregular", sans-serif;
+      color: #33251f; }
+    .contact_rap .contact_container .wpcf7-form input, .contact_rap .contact_container .wpcf7-form textarea {
+      width: 96%; }
+    .contact_rap .contact_container .wpcf7-response-output {
+      background: #fff; }
+    .contact_rap .contact_container .wpcf7-not-valid-tip {
       font-family: "Arvo", serif; }

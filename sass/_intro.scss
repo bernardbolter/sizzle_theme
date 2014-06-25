@@ -1,9 +1,26 @@
+.large_container {
+	@include respond-to(break) {
+		@include clearfix;
+		width: 100%;
+		background: $green;
+		overflow: $green;
+		border-bottom: 1px solid #333;
+	}
+}
+
 .intro_rap {
 	width: 100%;
 	@include center-block;
 	background: url(gfx/beige_back.jpg) repeat;
 	border-bottom: 1px solid #888;
 	padding: 15px 0;
+
+	@include respond-to(break) {
+		float: left;
+		width: 50%;
+		background: $green;
+		border-bottom: none;
+	}
 
 	.intro_title {
 		width: 100%;
@@ -16,6 +33,12 @@
 			@include line-height(2);
 			color: $brown;
 			text-shadow: 1px 1px 1px $green;
+
+			@include respond-to(break) {
+				text-align: right;
+				text-shadow: 2px 2px 2px #fff;
+				margin: 0 30px 0 0;
+			}
 		} // intro title 1
 
 		.intro_title_2 {
@@ -26,6 +49,12 @@
 			color: $brown;
 			text-shadow: 1px 1px 1px $green;
 			font-weight: 700;
+
+			@include respond-to(break) {
+				text-align: right;
+				text-shadow: 2px 2px 2px #fff;
+				margin: 20px 30px 20px 0;
+			}
 		} // intro title 2
 
 		p {
@@ -36,6 +65,11 @@
 			@include line-height(0.7);
 			margin: 0;
 			padding: 0;
+
+			@include respond-to(break) {
+				text-align: right;
+				margin: 0 40px 0 0;
+			}
 		} // p
 
 		h2 {
@@ -46,6 +80,11 @@
 			@include line-height(2.2);
 			margin: 0;
 			padding: 0;
+
+			@include respond-to(break) {
+				text-align: right;
+				margin: 0 40px 0 0;
+			}
 		} // h2
 
 		h3 {
@@ -56,6 +95,11 @@
 			@include line-height(2);
 			margin: 0;
 			padding: 0;
+
+			@include respond-to(break) {
+				text-align: right;
+				margin: 0 40px 0 0;
+			}
 		} // h3
 	} // intro title
 
@@ -65,6 +109,16 @@
 		padding: 3% 0 0;
 		overflow: hidden;
 		border-top: 1px solid #666;
+
+		@include respond-to(break) {
+			background: url(gfx/beige_back.jpg) repeat;
+			border: 1px solid #333;
+			padding: 3%;
+			width: 80%;
+			margin: 3% 7% 0 0;
+			float: right;
+			max-width: 600px;
+		}
 
 		h2 {
 			font-family: $font-head;

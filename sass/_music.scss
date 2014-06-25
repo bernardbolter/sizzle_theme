@@ -5,10 +5,20 @@
 	overflow: hidden;
 	display: block;
 
+	@include respond-to(break) {
+		float: right;
+		width: 50%;
+	}
+
 	.music_container {
 		width: 94%;
 		margin: 0 3%;
 		display: block;
+
+		@include respond-to(break) {
+			float: left;
+			max-width: 550px;
+		}
 
 		h2 {
 			font-family: $font-head;

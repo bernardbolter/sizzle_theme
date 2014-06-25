@@ -5,10 +5,18 @@
 	overflow: hidden;
 	border-bottom: 1px solid #888;
 
+	@include respond-to(break) {
+		border-bottom: none;
+		}
+
 	img {
 		width: 90%;
-		max-width: 650px;
+		max-width: 600px;
 		margin: 10% auto;
 		display: block;
+
+		@include respond-to(break) {
+		margin: 5% auto;
+		}
 	} // img
 } // hero rap

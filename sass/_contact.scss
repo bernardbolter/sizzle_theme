@@ -8,6 +8,27 @@
 		width: 94%;
 		margin: 0 3%;
 		overflow: hidden;
+		max-width: 1050px;
+
+		@include respond-to(break) {
+				margin: 0 auto;
+			}
+
+		.contact_left {
+			@include respond-to(break) {
+				width: 46%;
+				float: left;
+				margin: 0 4% 0 0;
+			}
+		}
+
+		.contact_right {
+			@include respond-to(break) {
+				width: 46%;
+				float: left;
+				margin: 0 0 0 4%;
+			}
+		}
 
 		a {
 			text-decoration: none;
@@ -37,6 +58,25 @@
 		} // h3
 
 		p {
+			font-family: $font-body;
+		}
+
+		.wpcf7-form {
+			p {
+				font-family: $font-head;
+				color: $brown;
+			} // p
+
+			input, textarea {
+				width: 96%;
+			}
+		} // wpcf7 form
+
+		.wpcf7-response-output {
+			background: #fff;
+		}
+
+		.wpcf7-not-valid-tip {
 			font-family: $font-body;
 		}
 	} // contact container

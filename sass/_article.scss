@@ -10,6 +10,11 @@
 		margin: 0 3%;
 		overflow: hidden;
 
+		@include respond-to(break) {
+			max-width: 700px;
+			margin: 20px auto;
+		}
+
 		h4 {
 			font-family: $font-body;
 			@include font-size(0.8);

@@ -29,35 +29,38 @@
 		.intro_title_1 {
 			text-align: center;
 			font-family: $font-head;
-			@include font-size(2.4);
-			@include line-height(2);
+			@include font-size(2);
+			@include line-height(2.2);
 			color: $brown;
 			text-shadow: 1px 1px 1px $green;
+			font-weight: 700;
+			margin-bottom: 0;
 
 			@include respond-to(break) {
 				text-align: right;
 				text-shadow: 2px 2px 2px #fff;
 				margin: 0 40px 0 0;
 				@include font-size(3);
-				@include line-height(3);
+				@include line-height(3.2);
 			}
 		} // intro title 1
 
 		.intro_title_2 {
 			text-align: center;
 			font-family: $font-head;
-			@include font-size(2.4);
-			@include line-height(2);
+			@include font-size(2);
+			@include line-height(2.2);
 			color: $brown;
 			text-shadow: 1px 1px 1px $green;
 			font-weight: 700;
+			margin-top: 0;
 
 			@include respond-to(break) {
 				text-align: right;
 				text-shadow: 2px 2px 2px #fff;
 				margin: 20px 40px 20px 0;
 				@include font-size(3);
-				@include line-height(3);
+				@include line-height(3.2);
 			}
 		} // intro title 2
 

@@ -1,8 +1,8 @@
 <div class="large_container">
 	<div class="intro_rap" id="intro">
 		<div class="intro_title">
-			<h1 class="intro_title_1">A &nbsp; Psycho-babble</h1>
-			<h1 class="intro_title_2">Musical &nbsp; Dra-medy</h1>
+			<h1 class="intro_title_1">A &nbsp; Psycho&#8209;babble</h1>
+			<h1 class="intro_title_2">Musical &nbsp; Dra&#8209;medy</h1>
 			<p>by</p>
 			<h2>Ed Cupman and Bernie Bolter</h2>
 			<p>with</p>

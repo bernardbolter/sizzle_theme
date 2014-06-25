@@ -29,7 +29,13 @@
 			padding: 0;
 			margin: 0 0 10px;
 			color: $brown;
-		}
+
+			.video_small {
+				@include font-size(1);
+				font-family: $font-body;
+				color: #333;
+			}
+		} // h3
 
 		.video_rapper {
 			position: relative;

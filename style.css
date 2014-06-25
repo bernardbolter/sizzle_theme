@@ -284,12 +284,14 @@ table {
     .intro_rap .intro_title .intro_title_1 {
       text-align: center;
       font-family: "bebasregular", sans-serif;
-      font-size: 24px;
-      font-size: 2.4rem;
-      line-height: 20px;
-      line-height: 2rem;
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 22px;
+      line-height: 2.2rem;
       color: #33251f;
-      text-shadow: 1px 1px 1px #cbf100; }
+      text-shadow: 1px 1px 1px #cbf100;
+      font-weight: 700;
+      margin-bottom: 0; }
       @media only screen and (min-width: 801px) {
         .intro_rap .intro_title .intro_title_1 {
           text-align: right;
@@ -297,18 +299,19 @@ table {
           margin: 0 40px 0 0;
           font-size: 30px;
           font-size: 3rem;
-          line-height: 30px;
-          line-height: 3rem; } }
+          line-height: 32px;
+          line-height: 3.2rem; } }
     .intro_rap .intro_title .intro_title_2 {
       text-align: center;
       font-family: "bebasregular", sans-serif;
-      font-size: 24px;
-      font-size: 2.4rem;
-      line-height: 20px;
-      line-height: 2rem;
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 22px;
+      line-height: 2.2rem;
       color: #33251f;
       text-shadow: 1px 1px 1px #cbf100;
-      font-weight: 700; }
+      font-weight: 700;
+      margin-top: 0; }
       @media only screen and (min-width: 801px) {
         .intro_rap .intro_title .intro_title_2 {
           text-align: right;
@@ -316,8 +319,8 @@ table {
           margin: 20px 40px 20px 0;
           font-size: 30px;
           font-size: 3rem;
-          line-height: 30px;
-          line-height: 3rem; } }
+          line-height: 32px;
+          line-height: 3.2rem; } }
     .intro_rap .intro_title p {
       font-family: "Arvo", serif;
       text-align: center;
@@ -594,6 +597,11 @@ table {
       padding: 0;
       margin: 0 0 10px;
       color: #33251f; }
+      .video_rap .video_container h3 .video_small {
+        font-size: 10px;
+        font-size: 1rem;
+        font-family: "Arvo", serif;
+        color: #333; }
     .video_rap .video_container .video_rapper {
       position: relative;
       padding-bottom: 56.25%;

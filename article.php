@@ -1,7 +1,7 @@
 <div class="article_rap">
 	<div class="article_container">
 		<h4>A recent review in the “Sizzletown Beat” by the famous roving reporter and theater critic Artemis Blue of the new psychobabble musical dramedy “LOST AND FOUND IN SIZZLETOWN”.</h4>
-		<h2>Something is Cooking In SIZZLETOWN!</h2>
+		<h2>Something &nbsp; is &nbsp; Cooking &nbsp; In &nbsp; SIZZLETOWN!</h2>
 		<h3>By Artemis Blue</h3>
 		<p>You’re probably one of those folks who thinks you have the formula for life all worked out. Yea, as if life is nothing more than a Betty Crocker recipe; I wonder if the old gal knew the recipe for failure? Or the ingredients of success?</p>
 		<p>Well, Ed Cupman and Bernie Bolter are the short-order cooks who baked, boiled and fried up one hell of a meal for you; that is, if you’re up for a slice of bittersweet pie! And the makings of this tasty San Francisco tart? The denizens of Frisco’s infamous Sizzletown.</p>

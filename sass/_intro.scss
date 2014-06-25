@@ -37,7 +37,9 @@
 			@include respond-to(break) {
 				text-align: right;
 				text-shadow: 2px 2px 2px #fff;
-				margin: 0 30px 0 0;
+				margin: 0 40px 0 0;
+				@include font-size(3);
+				@include line-height(3);
 			}
 		} // intro title 1
 
@@ -53,7 +55,9 @@
 			@include respond-to(break) {
 				text-align: right;
 				text-shadow: 2px 2px 2px #fff;
-				margin: 20px 30px 20px 0;
+				margin: 20px 40px 20px 0;
+				@include font-size(3);
+				@include line-height(3);
 			}
 		} // intro title 2
 
@@ -68,7 +72,7 @@
 
 			@include respond-to(break) {
 				text-align: right;
-				margin: 0 40px 0 0;
+				margin: 0 50px 0 0;
 			}
 		} // p
 
@@ -83,7 +87,7 @@
 
 			@include respond-to(break) {
 				text-align: right;
-				margin: 0 40px 0 0;
+				margin: 0 50px 0 0;
 			}
 		} // h2
 
@@ -98,7 +102,7 @@
 
 			@include respond-to(break) {
 				text-align: right;
-				margin: 0 40px 0 0;
+				margin: 0 50px 0 0;
 			}
 		} // h3
 	} // intro title

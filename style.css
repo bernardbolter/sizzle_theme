@@ -243,7 +243,7 @@ table {
       border-bottom: none; } }
   .hero_rap img {
     width: 90%;
-    max-width: 600px;
+    max-width: 1050px;
     margin: 10% auto;
     display: block; }
     @media only screen and (min-width: 801px) {
@@ -294,7 +294,11 @@ table {
         .intro_rap .intro_title .intro_title_1 {
           text-align: right;
           text-shadow: 2px 2px 2px #fff;
-          margin: 0 30px 0 0; } }
+          margin: 0 40px 0 0;
+          font-size: 30px;
+          font-size: 3rem;
+          line-height: 30px;
+          line-height: 3rem; } }
     .intro_rap .intro_title .intro_title_2 {
       text-align: center;
       font-family: "bebasregular", sans-serif;
@@ -309,7 +313,11 @@ table {
         .intro_rap .intro_title .intro_title_2 {
           text-align: right;
           text-shadow: 2px 2px 2px #fff;
-          margin: 20px 30px 20px 0; } }
+          margin: 20px 40px 20px 0;
+          font-size: 30px;
+          font-size: 3rem;
+          line-height: 30px;
+          line-height: 3rem; } }
     .intro_rap .intro_title p {
       font-family: "Arvo", serif;
       text-align: center;
@@ -323,7 +331,7 @@ table {
       @media only screen and (min-width: 801px) {
         .intro_rap .intro_title p {
           text-align: right;
-          margin: 0 40px 0 0; } }
+          margin: 0 50px 0 0; } }
     .intro_rap .intro_title h2 {
       font-family: "Arvo", serif;
       text-align: center;
@@ -337,7 +345,7 @@ table {
       @media only screen and (min-width: 801px) {
         .intro_rap .intro_title h2 {
           text-align: right;
-          margin: 0 40px 0 0; } }
+          margin: 0 50px 0 0; } }
     .intro_rap .intro_title h3 {
       font-family: "Arvo", serif;
       text-align: center;
@@ -351,7 +359,7 @@ table {
       @media only screen and (min-width: 801px) {
         .intro_rap .intro_title h3 {
           text-align: right;
-          margin: 0 40px 0 0; } }
+          margin: 0 50px 0 0; } }
   .intro_rap .intro_text {
     width: 94%;
     margin: 3% 3% 0;
@@ -574,6 +582,11 @@ table {
     margin: 0 3%;
     overflow: hidden;
     display: block; }
+    @media only screen and (min-width: 801px) {
+      .video_rap .video_container {
+        float: right;
+        max-width: 550px;
+        border-bottom: none; } }
     .video_rap .video_container h3 {
       font-family: "bebasregular", sans-serif;
       font-size: 20px;

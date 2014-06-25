@@ -17,6 +17,12 @@
 		overflow: hidden;
 		display: block;
 
+		@include respond-to(break) {
+			float: right;
+			max-width: 550px;
+			border-bottom: none;
+		}
+
 		h3 {
 			font-family: $font-head;
 			@include font-size(2);

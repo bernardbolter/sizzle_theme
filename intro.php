@@ -11,6 +11,6 @@
 		<div class="intro_text">
 			<h2>Welcome &nbsp; to &nbsp; SIZZLETOWN!!!!</h2>
 			<p>It’s the 1950’s in San Francisco and the International Settlement is in full swing and the suckers are lined up in the bars, looking for ways to make some easy money. Some girls are turning tricks, and others are wide-eyed and looking for love. Along comes Johnny Midnight, with his pork-pie hat and alligator shoes, selling shares in a for-sure-deal to make millionaires out of all the chumps he can fool with his shuck and Jive. Everything is cool until a sweet young thing from his past falls for him—and tragedy strikes.</p>
-			<a href="#" alt="Sizzletown PDF download">Download the Script &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="<?php bloginfo( 'template_url' ); ?>/gfx/pdf.png" alt="PDF icon"></a>
+			<a href="<?php bloginfo('url'); ?>/PDF/SIZZLETOWN.pdf" alt="Sizzletown PDF download">Download the Script &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="<?php bloginfo( 'template_url' ); ?>/gfx/pdf.png" alt="PDF icon"></a>
 		</div> <!-- intro text -->
 	</div>

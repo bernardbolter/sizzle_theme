@@ -1,7 +1,7 @@
 <div class="contact_rap" id="contact">
 	<div class="contact_container">
 		<div class="contact_left">
-			<a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/gfx/F_icon.png"> Visit &nbsp; us &nbsp; on &nbsp; Facebook</a>
+			<a href="https://www.facebook.com/groups/241333522618817/"><img src="<?php bloginfo( 'template_url' ); ?>/gfx/F_icon.png"> Visit &nbsp; us &nbsp; on &nbsp; Facebook</a>
 			<h3>Writers:</h3>
 			<p><b>Ed Cupman</b> - edcupman@me.com</p>
 			<p><b>Bernie Bolter</b> - berniebolter@gmail.com</p>
